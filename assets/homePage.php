@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>greenLightVest</title>
+<link href="css/reset.css" rel="stylesheet" type="text/css" />
+<link href="css/960_16_col.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="header">
+    <div class="container_16">
+        <div class="grid_4"><img src="images/greenLightVestLogo.jpg" alt="greenLightVest" id="logo" />
+        </div>
+        <div class="grid_4"><div class="inputHolder search"><input type="text" placeholder="Search Projects"/></div></div>
+        <div class="grid_8" id="nav">
+        <ul>
+        	
+           
+			<li><a href="#">About</a></li>
+            <li><?php echo anchor('register/signin', 'Sign In');?></li>
+              <li><?php echo anchor('register/signup', 'Sign Up');?></li>
+              <li><a href="#">Support A Project</a></li>
+               <li class="active"><?php echo anchor('register/start_project', 'Start a Project', 'title = "User Register"'); ?></li>
+        </ul>
+        </div>
+    </div>
+</div>
+<div id="banner" class="greenBg ">
+<div class="container_16">
+<div class="plane"><img src="images/paperPlane.png" /></div>
+<div class="grid_8"><br />
+</div>
+<div class="grid_8 fuel"><img src="images/slogan.png" alt="...fueling creative ideas" />
+<div class=" homeBanerTxt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Phasellus sed cursus erat. Aliquam tristique ligula sit amet dolor Lorem ipsum dolor sit amet, consectetur adipiscing elit.Phasellus sed cursus erat.</div>
+</div>
+<div class="grid_9"><br />
+</div><div class="grid_3 btn blueBg"><a href="#">Enter Your Project</a></div>
+<div class="grid_3 btn orangeBtn"><a href="#">Fund A Project</a></div>
+
+</div>
+</div>
+<div id="contentArea">
+<div class="container_16">
+        <div class="projectList">
+         <div class="grid_9"><h2>Trending Projects</h2></div>
+          <div class="grid_3">
+            <h3><a href="#">View All Projects</a>
+              </h2>
+            </h3>
+          </div>
+         <div class=" dividerLong grid_12"><br /></div>
+        <div class="item clearfix"><div class="grid_4"><a href="#"><img src="images/fel.jpg" /></a></div>
+        <div class="grid_8">
+          <h3>A creation of a Fela Art gallery </h3>
+          <h5>by Akinyele Obo</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Phasellus sed cursus erat. Aliquam tristique ligula sit amet dolor Lorem ipsum dolor sit amet, consectetur adipiscing elit.Phasellus sed cursus erat. Aliquam tristique lig</p>
+        </div>
+        <div class="grid_8">
+         <div class="info"><h4>N3,09834</h4>
+          <h6>Donation</h6></div>
+            <div class="info"><h4>N3,09834</h4>
+          <h6>Pledges</h6></div>
+            <div class="info">
+          <h4>30days</h4>
+          <h6>To go</h6></div>
+        </div>
+ </div>
+ 
+ <div class="item clearfix">
+   <div class="grid_4"><a href="#"><img src="images/game.jpg" /></a></div>
+        <div class="grid_8">
+          <h3><a href="#s">A creation of a Fela Art gallery </a></h3>
+          <h5>by Akinyele Obo</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Phasellus sed cursus erat. Aliquam tristique ligula sit amet dolor Lorem ipsum dolor sit amet, consectetur adipiscing elit.Phasellus sed cursus erat. Aliquam tristique lig</p>
+          <div class="grid_8">
+         <div class="info"><h4>N3,09834</h4>
+          <h6>Donation</h6></div>
+            <div class="info"><h4>N3,09834</h4>
+          <h6>Pledges</h6></div>
+            <div class="info">
+          <h4>30days</h4>
+          <h6>To go</h6></div>
+        </div>
+        </div>
+ </div>
+
+<div class="item clearfix">
+  <div class="grid_4"><a href="#"><img src="images/delivery.jpg" /></a></div>
+        <div class="grid_8">
+          <h3><a href="#">A creation of a Fela Art gallery </a></h3>
+          <h5>by Akinyele Obo</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Phasellus sed cursus erat. Aliquam tristique ligula sit amet dolor Lorem ipsum dolor sit amet, consectetur adipiscing elit.Phasellus sed cursus erat. Aliquam tristique lig</p>
+          <div class="grid_8">
+         <div class="info"><h4>N3,09834</h4>
+          <h6>Donation</h6></div>
+            <div class="info"><h4>N3,09834</h4>
+          <h6>Pledges</h6></div>
+            <div class="info">
+          <h4>30days</h4>
+          <h6>To go</h6></div>
+        </div>
+        </div>
+ </div>
+
+ 
+</div> <div class=" grid_4 sticky">
+  <div class="stickyInner"><h2>Project Categories</h2>
+  	<ul>
+    	<li><a href="#">Art</a></li>
+        <li><a href="#">Culture</a></li>
+        <li><a href="#">Education</a></li>
+        <li><a href="#">Music</a></li>
+        <li><a href="#">Movies</a></li>
+        <li><a href="#">Humanity</a></li>
+        <li><a href="#">Art</a></li>
+        <li><a href="#">Culture</a></li>
+        <li><a href="#">Education</a></li>
+        <li><a href="#">Music</a></li>
+        <li><a href="#">Movies</a></li>
+        <li><a href="#">Humanity</a></li>
+    </ul>
+  </div>
+</div></div>
+<div class="container_16"><div id="footer" class="grid_16"><a href="#">Home</a>|<a href="#"> About Us</a>| <a href="#">Sign Up </a>| <a href="#s">Support</a> <br />Copyright 2012 greenlightvest
+</div>
+</div>
+
+</body>
+</html>
